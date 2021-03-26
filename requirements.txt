@@ -1,5 +1,3 @@
 qrcode
 pymongo
 Image
-dnspython
-result
