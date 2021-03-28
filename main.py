@@ -44,7 +44,7 @@ while id_req < NumberOfTickets:
     id_req = id_req + 1
     qr.clear()
 
-TicketsPath = Path + "/" + TicketDirName
-os.startfile(TicketsPath)
+os.startfile(os.path.join(Path, TicketDirName)) #Используя path.join задаем расположение папки с билетами, которая с помощью startfile откроется после работы программы
+
 print("Done")
 
